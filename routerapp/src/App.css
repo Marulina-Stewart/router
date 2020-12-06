@@ -1,0 +1,184 @@
+.navigation {
+  background-color: rgb(93, 15, 15);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.search {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 150px;
+  width: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.ratingalign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.541);
+}
+.searchingform {
+  width: 79%;
+  height: 45px;
+  border: none;
+  padding: 10px;
+}
+.titlelabel {
+  height: 50px;
+  width: 20%;
+  background-color: rgba(255, 0, 0, 0.473);
+  margin: 0;
+  padding-top: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(156, 0, 0, 0.541);
+}
+.searchingalign {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 600px;
+  border: 1px solid rgba(255, 0, 212, 0.541);
+}
+.ratelabel {
+  width: 40%;
+  height: 50px;
+  background-color: rgba(108, 142, 255, 0.473);
+  margin: 5;
+  padding: 0;
+  border-radius: 10px;
+  padding-top: 10px;
+  background-color: rgba(0, 33, 143, 0.473);
+}
+.stars {
+  align-self: start;
+}
+/* Carousel */
+.carousel {
+  height: 300px;
+  width: 200px;
+  padding: 0px 0px 50px 0px;
+  margin: 20px auto;
+  cursor: pointer;
+  background-color: white;
+}
+.carouselsize {
+  height: 300px;
+  width: 1349px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(49, 8, 8);
+}
+.slide {
+  display: flex;
+  justify-content: space-around;
+}
+/* MovieCard */
+.Card {
+  width: 280px;
+  height: 600px;
+  border: 1px solid rgba(85, 100, 148, 0.397);
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: white;
+}
+.Card:hover {
+  background-color: white;
+  box-shadow: 0 15px 15px 0 #d8bb18;
+}
+.Carddesc {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.title {
+  color: rgba(47, 33, 172, 0.527);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.text {
+  font-size: 12px;
+  font-weight: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  width: 250px;
+  text-align: center;
+}
+.poster {
+  width: 250px;
+  height: 320px;
+}
+.btnmovie {
+  margin: 5px auto;
+  width: 100px;
+}
+.btns {
+  display: flex;
+}
+.rating {
+  margin: auto;
+}
+/* Movie List */
+#ListOfMovies {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.modal2 {
+  padding: 30px;
+  background-color: black;
+}
+.modal3 {
+  margin-top: 10%;
+}
+.formdescription {
+  margin-left: 22px;
+}
+.inputdesc {
+  margin-right: 22px;
+}
+.formposter {
+  margin-left: 17px;
+}
+.inputposter {
+  margin-right: 18px;
+}
+.formrate {
+  margin-right: 0px;
+}
+.select {
+  width: 180px;
+}
+.position {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  width: 500px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.posteradd {
+  display: flex;
+  justify-content: space-around;
+}
